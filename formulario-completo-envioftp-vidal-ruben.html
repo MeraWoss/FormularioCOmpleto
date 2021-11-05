@@ -1,0 +1,93 @@
+<html>
+<head>
+	<title>Practica FTP RUBEN</title>
+</head>
+
+<body>
+	<table border=1>
+		<form method="post" action="http://formadorestic.com/alumnosasir2/procesaformulario_usuario.php">
+		</tr>
+			<td colspan='2' class="celdatitulo"><h1>User Form<h1></td>
+		<tr>
+
+		</tr>
+			<th><label for="nombre">Enter Name</label></th>
+			<td>
+				<input type='text' id='nombre' name="nombre" >
+			</td>
+		<tr>
+
+		</tr>
+			<th><label for="contrasena">Enter Password</label></th>
+			<td>
+				<input type='text' id='contrasena' name="password" >
+			</td>
+		<tr>
+
+		</tr>
+			<th><label for="textarea">Enter Adrres</label></th>
+			<td>
+				<textarea id='textarea' name="direccion" size='50px'></textarea>
+			</td>
+		</tr>
+
+		<tr>
+			<th>Select Game</label></th>
+			<td>
+				<input type='checkbox' id='hockey' name='deportes[]' value='Hockey'>
+				<label for='hockey'>Hockey
+						<br>
+				<input type='checkbox' id='futbol' name='deportes[]' value="Futbol">
+				<label for='futbol'>Football
+						<br>
+				<input type='checkbox' id='badbimton' name='deportes[]' value="Badbimton">
+				<label for='badbimton' >Badbimton
+						<br>
+				<input type='checkbox' id='cricket' name='deportes[]' value="Cricket">
+				<label for='cricket'>Cricket
+						<br>
+				<input type='checkbox' id='voleyball' name='deportes[]' value="Voleyball">
+				<label for='voleyball'>voleyball
+			</td>
+		</tr>
+
+		<tr>
+			<th>>Gender</th>
+			<td>
+				<input type='radio' id='male' name='sexo' value="Hombre">
+				<label for='male'>Male
+
+				<input type='radio' id='female' name='sexo' value="Mujel">
+				<label for='female'>Female
+		</td>
+		</tr>
+
+		<tr>
+			<th>Select ur age</th>
+			<td>
+				<select value="Select" name="edad">
+					<option>Select</option>
+					<option value="18">18</option>
+					<option value="19"> 19</option>
+					<option value="+19">+19</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan='2' class="Examinar" >
+				<input type='file' value='No se ha selecionado nngun archivo'>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">
+				<input type='submit' value='Click Me'>
+				<input type='submit' value='Restablecer'>
+				<input type='submit' value='Submit Form'>
+			</td>
+		<tr>
+		</table>
+		</form>
+</body>
+</html>
